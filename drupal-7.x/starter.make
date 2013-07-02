@@ -1,7 +1,7 @@
 ; Drush Make starter file
 ; See the Drush Make prject page for info:
 ;	http://drupal.org/project/drush_make
-; This file by B¿rge Warvik [bowarv@gmail.com]
+; This file by BÃ¸rge Warvik [bowarv@gmail.com]
 
 ; Version of Drupal
 core = 7.x
@@ -86,6 +86,13 @@ projects[webform][subdir] = contrib
 
 ; WYSIWYG
 projects[wysiwyg][subdir] = contrib
+
+; Fitvids
+projects[fitvids][subdir] = contrib
+libraries[fitvids][download][type] = "get"
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+libraries[fitvids][directory_name] = "fitvids"
+libraries[fitvids][destination] = "libraries"
 
 ; jQuery UI module & library
 projects[jquery_ui][subdir] = "contrib"
