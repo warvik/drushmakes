@@ -4,7 +4,7 @@
 ; This file by Børge Warvik [bowarv@gmail.com]
 
 ; Version of Drupal
-core = 7.x
+core = 7.22
 
 ; Version of Drush Make
 api = 2
